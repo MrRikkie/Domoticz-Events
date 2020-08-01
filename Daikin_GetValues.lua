@@ -9,7 +9,7 @@ return {
 	execute = function(domoticz, item)
 	    domoticz.log('-- Daikin1_GetValues --')
 	    -- Variable Slaapkamer EenS
-        local daikin1_ip = '10.10.0.48' -- Slaapkamer EenS
+        local daikin1_ip = '*.*.*.*' -- Slaapkamer EenS
         local daikin1_mode = 'Daikin Mode'
         local daikin1_wind = 'Daikin Wind'
         local daikin1_fanspeed = 'Daikin Ventilatorsnelheid'
